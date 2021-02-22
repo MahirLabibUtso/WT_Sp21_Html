@@ -12,7 +12,8 @@
         $bio="";
         $err_bio="";
 
-        if($_SERVER["REQUEST_METHOD"]=="POST"){
+        if($_SERVER["REQUEST_METHOD"]=="POST")
+        {
             if(empty($_POST["uname"])){
                 $err_uname="User name required";
             }
