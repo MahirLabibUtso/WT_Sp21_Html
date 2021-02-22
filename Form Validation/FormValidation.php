@@ -84,14 +84,10 @@
 <head>
 </head>
 <body>
-<!--  echo "Name: " . $_POST["uname"]."<br>"; 
-            echo "Password: " . $_POST["pass"]."<br>" ;
-            echo "Gender: " . $_POST["gender"]."<br>";
-            echo "Profession: ".$_POST["profession"]."<br>";
-            echo "Bio: " . $_POST["tarea"]."<br>";-->
+
 
     <h1>User Registration</h1>
-        <form action="" method="post"><!-- controls must be in form tag-->
+        <form action="" method="post">
             <table>
                 <tr>
                     <td><span>Username</span></td>
